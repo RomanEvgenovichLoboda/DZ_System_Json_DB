@@ -54,15 +54,16 @@
             this.button_Registration.TabIndex = 1;
             this.button_Registration.Text = "Registration";
             this.button_Registration.UseVisualStyleBackColor = true;
+            this.button_Registration.Click += new System.EventHandler(this.button_Registration_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(18, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 20);
+            this.label1.Size = new System.Drawing.Size(52, 20);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Login";
+            this.label1.Text = "E-Mail";
             // 
             // label2
             // 
